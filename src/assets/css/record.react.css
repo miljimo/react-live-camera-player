@@ -1,0 +1,15 @@
+
+
+:local(.record){
+  background-image:url("../icons/64x64/record.png");
+  background-position:center center !important;
+  margin:0px;
+  padding:0px;
+  background-color: transparent;
+  float:left;
+}
+
+:local(.recordPlaying){
+ background-image:url("../icons/64x64/record_playing.png");
+}
+

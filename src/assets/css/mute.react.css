@@ -1,0 +1,20 @@
+:local(.wrapper){
+	display:block;
+	border:0px;
+}
+:local(.unmute){
+  background-image:url("../icons/64x64/unmute.png");
+  background-position:center center !important;
+  margin:0px;
+  padding:0px;
+  background-color: transparent;
+}
+
+:local(.mute){
+	background-image:url("../icons/64x64/mute.png");
+};
+
+:local(.wrapper .tooltip )
+{
+
+}

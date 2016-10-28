@@ -1,0 +1,11 @@
+
+:local(.fullscreen){
+  background-image:url("../icons/64x64/fullscreen.png");
+  background-position:center center !important;
+  background-color: transparent;
+  float:right;
+}
+
+:local(.exitFullscreen){
+  background-image:url("../icons/64x64/exit_fullscreen.png");
+}

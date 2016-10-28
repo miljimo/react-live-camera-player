@@ -1,0 +1,10 @@
+:local(.controls){
+	background-color:transparent;
+	margin:1px auto;
+	display:block;
+	text-align:center;
+	padding:5px;
+	width:99.10%;
+	min-height:20px;
+}
+

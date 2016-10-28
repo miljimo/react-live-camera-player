@@ -1,0 +1,10 @@
+
+:local(.play){
+  background-image:url("../icons/64x64/play.png");
+  background-position:center center !important;
+  background-color: transparent;
+}
+
+:local(.pause){
+  background-image:url("../icons/64x64/pause.png") !important;
+}

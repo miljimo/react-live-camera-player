@@ -1,0 +1,9 @@
+
+:local(.forward){
+  background-image:url("../icons/64x64/forward.png");
+  background-position:center center !important;
+  margin:0px;
+  padding:0px;
+  background-color: transparent;
+}
+

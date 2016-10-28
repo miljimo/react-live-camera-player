@@ -1,0 +1,36 @@
+
+:local(.tooltip){
+  position:relative;
+  margin:10px 10px 10px 10px !important;
+  padding:0px;
+  z-index:1 !important;
+  border:0px solid red;
+  cursor:pointer;
+}
+
+:local(.tooltip .content){
+  margin:0px;
+  padding:6px !important;
+  background-color:#595959;
+  background-color:rgb(89, 89, 89);
+  background-color:rgba(0,0,0,0.6);
+  color:#ffffff;
+  font-weight: 200 !important;
+  font-size:12px;
+  z-index: 1;
+
+}
+
+:local(.tooltip .content::after){
+	  content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color:rgba(0,0,0,0.6) transparent transparent transparent;
+}
+
+
+

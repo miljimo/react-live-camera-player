@@ -1,0 +1,24 @@
+:local(.camPhotoHolder){
+   overflow-x:hidden;
+   height:120px;
+   position:relative;
+   width:100%;
+   margin:4px;
+}
+
+:local(.camPhotoHolder .imgPhoto){
+	width:130px;
+	height:90px;
+	border:0px solid red;
+	margin:5px 5px 1px 5px;
+	float:left;
+	cursor: pointer;
+	
+}
+
+:local(.camPhotoHolder .selected)
+{
+	border:2px solid red;
+	width:128px;
+	height:88px;
+}

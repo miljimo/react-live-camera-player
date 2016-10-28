@@ -1,0 +1,99 @@
+:local(.snapshotPanel){
+	composes: cameraSetting  from "./camera.controls.css";
+   overflow:hidden;
+   display:block;
+ 
+}
+
+:local(.header){
+  composes: mediaSettingHeader  from "./camera.controls.css";
+  background-image:url("../icons/64x64/photos.png");
+}
+
+
+:local(.header:hover .takeSnapShotCount){
+  box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
+  color:;
+}
+
+:local(.header .takeSnapShotCount)
+{
+   position:relative;
+   float:right;
+   min-width:15px;
+   height:15px;
+   border:0px solid #000;
+   display:block;
+   text-align:center;
+   padding:4px 2px 2px 2px;
+   border-radius: 70px;
+   background-color: #999999;
+   color:#e6e6e6;
+   box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);
+   overflow:hidden;
+   font-size:0.8em;
+   cursor:pointer;
+}
+
+:local(.content){
+   position:relative;
+}
+:local(.content .photoHolder){
+  overflow:hidden;
+  position:relative;
+  display:block;
+  width:98%; 
+  margin:0px auto;
+}
+
+:local(.content .photoHolder .canvas){
+   margin:0px auto !important;
+   border:1px solid #eee;
+   display:block;
+   position:relative;
+    z-index:0;
+
+  
+}
+:local(.navigator){
+   position:absolute;
+   display:block;
+   overflow:hidden;
+   z-index:1;
+   height:99.2%;
+   width:40px;
+   text-align:center !important;
+   padding:2px;   
+   background-repeat: no-repeat;
+   background-size: 20px 20px;
+   background-position: center center;
+   background-image: url("../icons/64x64/backward_arrow.png");
+   cursor:pointer;
+};
+
+
+:local(.contentChildrenLeft){
+   composes:navigator;
+   float:left;
+   left:0px;
+  
+}
+
+
+:local(.contentChildrenRight){
+   composes:navigator;
+   right:0px;
+   float:right;
+   background-image: url("../icons/64x64/forward_arrow.png");
+}
+
+
+:local(.contentChildrenLeft:hover){
+   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+   background-color:rgba(0,0,0,0.2);
+}
+
+:local(.contentChildrenRight:hover){
+   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+   background-color:rgba(0,0,0,0.2);
+}
